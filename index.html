@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="music-player">
+        <div class="now-playing">
+            <span class="track-name">Track Name</span>
+            <span class="track-artist">Artist Name</span>
+        </div>
+        <div class="controls">
+            <button id="prev">Prev</button>
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next">Next</button>
+        </div>
+        <div class="progress-container">
+            <input type="range" id="progress" value="0" max="100">
+        </div>
+        <audio id="audio"></audio>
+        <div class="playlist">
+            <button class="playlist-item" data-src="03.Kouloub.mp3">Kouloub</button>
+            <button class="playlist-item" data-src="04 - Layla.mp3">Layla</button>
+            <button class="playlist-item" data-src="04.We Heya Amla Aeh Delwat.mp3">We Heya Amla Aeh Delwat</button>
+            <button class="playlist-item" data-src="5-Hatlena Bel Ba'y Leban.mp3">Hatlena Bel Ba'y Leban</button>
+            <button class="playlist-item" data-src="05 - Matwhashneesh.mp3">Matwhashneesh</button>
+            <button class="playlist-item" data-src="06 - Roberto.mp3">Roberto</button>
+            <button class="playlist-item" data-src="07 - Zaman El Kalam.mp3">Zaman El Kalam</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
