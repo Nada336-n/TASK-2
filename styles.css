@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #856464;
+    margin: 0;
+}
+
+.music-player {
+    background: #806767;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.now-playing {
+    margin-bottom: 20px;
+}
+
+.track-name,
+.track-artist {
+    display: block;
+    margin: 5px 0;
+}
+
+.controls {
+    margin-bottom: 20px;
+    color: #806767;
+}
+
+button {
+    background: #a68888;
+    color: rgb(19, 15, 15);
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.progress-container {
+    margin: 20px 0;
+    color: #806767;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.playlist-item {
+    display: block;
+    background: #ac8d8d;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.playlist-item:hover {
+    background: #ddd;
+}
